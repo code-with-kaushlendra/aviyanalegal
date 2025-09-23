@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aviyana Legal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                     <img src="images/Aviyanalegal.png" alt="RPG Ventures Logo">
+                    <!-- <div>
+                        <h3>Aviyana Legal</h3>
+                        <p>Trusted Legal Solutions</p>
+                    </div> -->
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-contact">
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span> +918779102007</span>
+                </div>
+                <a href="contact.html" class="btn-consultation">Get Consultation</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-background"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <span class="section-tag">Contact Us</span>
+                <h1>Get Expert Legal <span class="highlight">Consultation</span></h1>
+                <p>Ready to discuss your legal requirements? We're here to help you with comprehensive solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We're here to provide you with expert legal guidance and support. Contact us today to discuss your requirements.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p> +918779102007</p>
+                                <p>+918433680862</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>connect@aviyanaventures.com</p>
+                                <p>connect@rpgventures.net</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>Aviyana Legal<br>
+                                A Division of Aviyana Ventures Pvt. Ltd.<br>
+                                New Delhi - 110001, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="corporate-law">Corporate Law</option>
+                                <option value="compliance">Compliance & Regulatory</option>
+                                <option value="ma-advisory">M&A Advisory</option>
+                                <option value="litigation">Litigation & Dispute Resolution</option>
+                                <option value="contract-management">Contract Management</option>
+                                <option value="intellectual-property">Intellectual Property</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your legal requirements..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">I agree to the privacy policy and terms of service *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Map Section -->
+<section class="map-section">
+    <div class="container">
+        <h2>Visit Our Offices</h2>
+
+        <!-- Navi Mumbai -->
+        <div class="map-block">
+            <h3>Navi Mumbai Office</h3>
+            <p>Aviyana Ventures Pvt. Ltd., Navi Mumbai, India</p>
+            <div class="map-embed">
+                <iframe
+                    src="https://maps.google.com/maps?q=Aviyana%20Ventures%20Pvt.%20Ltd&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Ghaziabad -->
+        <div class="map-block">
+            <h3>Ghaziabad Office</h3>
+            <p>Turab Nagar, Opp. Shagun Sweets, Ambedkar Road, Ghaziabad</p>
+            <div class="map-embed">
+                <iframe
+                    src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Turab%20Nagar%2C%20Opposite%20Shagun%20Sweets%2C%20Ambedkar%20Road%2C%20Ghaziabad%2C+(Aviyana%20Venture%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                    frameborder="0"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Bangalore (Placeholder Map Link) -->
+        <div class="map-block">
+            <h3>Bangalore Office</h3>
+            <p>Aviyana House, C/o Singhania & Co, 204-A, Mittal Towers, #6, M.G. Road, Bangalore-560 001</p>
+            <div class="map-embed">
+                <iframe
+                      src="https://maps.google.com/maps?q=Aviyana%20House%2C%20Mittal%20Towers%2C%20MG%20Road%2C%20Bangalore%2C%20Karnataka%20560001&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+    <img src="images/Aviyanalegal.png" alt="Aviyana Legal Logo">
+</div>
+                    <p>A Division of Aviyana Ventures Pvt. Ltd.
+“All Your Corporate Legal Services & Solutions Under One Roof”
+</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Corporate Law</a></li>
+                        <li><a href="services.html">Compliance</a></li>
+                        <li><a href="services.html">M&A Advisory</a></li>
+                        <li><a href="services.html">Litigation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 8433680862</p>
+                        <p><i class="fas fa-envelope"></i>connect@aviyanaventures.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i>U 17, Subash Park, Uttam Nagar West, New Delhi-110059.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aviyana Legal. All rights reserved. | A Division of Aviyana Ventures Pvt. Ltd.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

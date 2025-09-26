@@ -829,13 +829,19 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
+
 .team-member {
-    background: white;
+    background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
     transition: transform 0.3s ease;
 }
 
@@ -843,26 +849,41 @@ body {
     transform: translateY(-5px);
 }
 
+
+.member-image {
+    height: 440px;
+    overflow: hidden;
+    background: #f3f4f6;
+}
+
 .member-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: top;
+   
 }
 
 .member-info {
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
 }
-
 .member-info h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin: 0 0 4px;
     color: #1f2937;
 }
 
 .member-info h5 {
+    font-size: 14px;
+    font-weight: 500;
     color: #1e40af;
-    margin-bottom: 15px;
+    margin: 0 0 10px;
 }
 
 .member-info p {
